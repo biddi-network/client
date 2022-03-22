@@ -1,0 +1,73 @@
+$sl-font-family: "SuissenIntl";
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-Regular.woff") format("woff"),
+    url("/fonts/SuisseIntl-Regular.otf") format("otf"),
+    url("/fonts/SuisseIntl-Regular.eot") format("eot");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-Medium.woff") format("woff"),
+    url("/fonts/SuisseIntl-Medium.otf") format("otf"),
+    url("/fonts/SuisseIntl-Medium.eot") format("eot");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-Bold.woff") format("woff"),
+    url("/fonts/SuisseIntl-Bold.otf") format("otf"),
+    url("/fonts/SuisseIntl-Bold.eot") format("eot");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-Extrabold.woff") format("woff"),
+    url("/fonts/SuisseIntl-Extrabold.otf") format("otf"),
+    url("/fonts/SuisseIntl-Extrabold.eot") format("eot");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-Black.woff") format("woff"),
+    url("/fonts/SuisseIntl-Black.otf") format("otf"),
+    url("/fonts/SuisseIntl-Black.eot") format("eot");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-Heavy.woff") format("woff"),
+    url("/fonts/SuisseIntl-Heavy.otf") format("otf"),
+    url("/fonts/SuisseIntl-Heavy.eot") format("eot");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $sl-font-family;
+  src: url("/fonts/SuisseIntl-HeavyItalic.woff") format("woff"),
+    url("/fonts/SuisseIntl-HeavyItalic.otf") format("otf"),
+    url("/fonts/SuisseIntl-HeavyItalic.eot") format("eot");
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+}
+
+////fonts: black, extrabold, bold, medium, regular;

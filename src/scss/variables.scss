@@ -1,0 +1,30 @@
+$sl-font-family: "SuissenIntl";
+
+$sl-containers: (
+  mobile: calc(100% - 32px),
+  tablet: calc(100% - 48px),
+  desktop: 1264px,
+);
+
+$sl-breakpoints: (
+  desktop: 1300px,
+  tablet: 768px,
+  mobile: 320px,
+);
+
+$sl-colors: (
+  paragraph: (
+    base: #ffffff,
+  ),
+  background: (
+    base: #080a0c,
+  ),
+  inactive: (
+    base: #6a84a0,
+  ),
+  subtitle: (
+    base: #8736ff,
+  ),
+);
+
+$sl-transition-time: 0.2s;

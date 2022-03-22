@@ -1,0 +1,31 @@
+@import "src/scss/variables";
+@import "src/scss/mixins";
+
+.root {
+  // padding-top: 94px;TODO: add padding for header
+
+  &.outer {
+    $width: map-get($sl-containers, mobile);
+
+    width: $width;
+    min-width: $width;
+    max-width: $width;
+    margin: 0 auto;
+
+    @include breakpoint("tablet") {
+      $width: map-get($sl-containers, tablet);
+
+      width: $width;
+      min-width: $width;
+      max-width: $width;
+    }
+
+    @include breakpoint("desktop") {
+      $width: map-get($sl-containers, desktop);
+
+      width: $width;
+      min-width: $width;
+      max-width: $width;
+    }
+  }
+}

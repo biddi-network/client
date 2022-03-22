@@ -1,0 +1,47 @@
+@import "src/scss/mixins.scss";
+
+.root {
+  font-family: $sl-font-family;
+
+  &.title1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+  }
+
+  &.common1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  &.common2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  &.numbers {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+  }
+
+  &.left {
+    text-align: left;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.right {
+    text-align: right;
+  }
+
+  @each $color, $_ in $sl-colors {
+    &.#{$color} {
+      color: get-color($color, base);
+    }
+  }
+}
