@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>BIDDI</title>
       </Head>
       <Container>
-        <div>home</div>
+        <div>homepage</div>
       </Container>
     </>
   );
